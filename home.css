@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+ color: #027a2f;
+ margin-left: 1em;
+ margin-top: 1em;
+ margin-bottom: 1em;
+ font-size: 3.5vw;
+}
+
+/* Header */
+.head img {
+  filter: brightness(50%);
+}
+
+.head {
+  color: #ffffff;
+position: relative;
+}
+
+#headtext{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.head h1 {
+  font-size: 8vw;
+}
+
+.head h3 {
+  font-size: 2vw;
+  font-weight: 200;
+  top: 60%;
+  left: 50%;
+}
+
+.head hr {
+  top: 51%;
+  left: 30%;
+  background-color: #ffffff;
+  height: 2px;
+  width: 100%
+}
+
+.head i {
+  top: 100%;
+  left: 50%;
+  transform: translate(0%, 450%);
+  color: #ffffff;
+}
+
+/* offerings */
+.offerings h4 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.offerings {
+  margin: 20px;
+}
+
+.offerings p {
+  font-size: 13px;
+  font-weight: 200;
+  text-align: center;
+}
+
+#offer1 h4, #offer3 h4 {
+  color: #027a2f;
+}
+
+.offerrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px 100px;
+}
+
+#offer1 {
+  background-color: #fafafa;
+  padding: 1em;
+  padding-bottom: .5em;
+  box-shadow: 0px 1px 8px #494949;
+}
+
+#offer2 {
+  background-color: #494949;
+  padding: 1em;
+  box-shadow: 0px 1px 8px #494949;
+  color: #ffffff;
+}
+
+#offer3 {
+  background-color: #fafafa;
+  padding: 1em;
+  box-shadow: 0px 1px 8px #494949;
+}
+
+/* facts */
+#fact .row {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+
+.facts h3 {
+  color: #027a2f;
+  font-size: 3vw;
+}
+
+.facts h4 {
+  font-size: 1.8vw;
+}
+
+.facts hr {
+  background-color: #027a2f;
+  height: 1px;
+  align-content: center;
+}
+
+.facts {
+ background-color:#ffffff;
+ text-align: center;
+ border-radius: 20px;
+ box-shadow: 0px 1px 8px #494949;
+ padding: 20px;
+ margin: 10px;
+}
+
+/* educated */
+.educated {
+  padding: 0;
+  margin: 0;
+}
+
+.educated img {
+  filter: brightness(40%);
+}
+
+.educated h3 {
+  font-size: 4vw;
+}
+
+.educated h4 {
+  font-size: 2.5vw;
+}
+
+figcaption {
+  position: absolute;
+  top: 20%;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+/* end */
+.end {
+  text-align: center;
+  padding: 15vw;
+}
+
+.end h1 {
+  font-size: 3vw;
+  background-color: #ffffff;
+  line-height: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.end button {
+  font-size: 2vw;
+  border-radius: 30px;
+  width: 15vw;
+  padding: .5em;
+  background-color: #494949;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+#initiative {
+  color: #027a2f;
+}
+
+@media screen and (max-width: 750px) {
+  hr {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #chevdown {
+    display: none;
+  }
+}
